@@ -1,0 +1,58 @@
+.mainpage {
+	min-width: 800px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.header {
+	gap : 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color : #975A3E;
+  }
+
+.middlepage {
+	background-color : darkgreen;
+	color :white;
+  }
+
+.workDoneList {
+	gap : 20px;
+	display: flex;
+	padding: 50px;
+	align-items: center;
+	justify-content: center;
+  }
+
+.listCard {
+	width: 30%;
+	height : 15%;
+	color: white;
+	border: 3px solid white;
+	border-radius: 10px;
+	display:grid;
+	align-items: center;
+	justify-content: center;
+  
+  }
+
+.buttonSection {
+	display : flex;
+	direction : row;
+	gap : 10px;
+	padding: 10px;
+  }
+
+.addButton {
+  
+	gap : 30px;
+	border: 1px solid black;
+  }
